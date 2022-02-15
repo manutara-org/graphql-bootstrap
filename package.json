@@ -1,0 +1,23 @@
+{
+  "name": "graphql-bootstrap",
+  "version": "0.0.1",
+  "description": "Scaffold UI based on directive definitions in a GraphQL schema",
+  "main": "index.js",
+  "scripts": {
+    "dev:spec": "nodemon --exec 'spec-md > ./spec/build/index.html' ./spec/src/spec.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/manutara-org/graphql-bootstrap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manutara-org/graphql-bootstrap/issues"
+  },
+  "homepage": "https://github.com/manutara-org/graphql-bootstrap#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "spec-md": "^3.0.2"
+  }
+}
