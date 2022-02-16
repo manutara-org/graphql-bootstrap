@@ -2,7 +2,8 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "format": "prettier --write '**/*.{md,yml,yaml}'"
+    "format": "prettier --write 'packages/**/*.{md,yml,yaml}'",
+    "test:spellcheck": "cspell -e 'packages/*/node_modules/**/*' 'packages/**/*.md' './*.md'"
   },
   "devDependencies": {
     "cspell": "^5.18.5",
