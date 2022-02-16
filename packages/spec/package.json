@@ -2,13 +2,13 @@
   "name": "graphql-bootstrap-spec",
   "version": "0.0.1",
   "description": "Specification for GraphQL Bootstrap",
-  "main": "index.js",
   "scripts": {
-    "dev:spec": "nodemon --exec 'spec-md -m spec/src/metadata.json > ./spec/build/index.html' ./spec/src/spec.md"
+    "dev:spec": "nodemon --exec 'spec-md -m spec/src/metadata.json src/spec.md > build/index.html' ./spec/src/spec.md",
+    "build": "spec-md -m src/metadata.json src/spec.md > build/index.html"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/manutara-org/graphql-bootstrap.git"
+    "url": "http://github.com/manutara-org/graphql-bootstrap/tree/main/packages/graphql-bootstrap-spec"
   },
   "author": "",
   "license": "ISC",
