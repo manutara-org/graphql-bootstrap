@@ -1,5 +1,4 @@
-GraphQL Bootstrap Specification
--------------------------------
+# GraphQL Bootstrap Specification
 
 _Current Working Draft_
 
@@ -10,9 +9,8 @@ The instruments provided by this specification are intended to be used for proce
 with the following goals in mind:
 
 - Provide a high-level API for UI generation
-- Allow ObjectTypeDefinitions to denote elements which they will be rendered to
-- Allow compliant schemas to define a standard library of Elements from which to link certain
-  WrappedTypeDefinitions
+- Allow {ObjectTypeDefinition} to denote elements which they will be rendered to
+- Allow compliant schemas to define a standard library of {Elements} from which to link certain {WrappedTypeDefinition}s
 - Provide a set of standard QueryKinds which can be implemented or skipped by ObjectTypeDefinitions
 - Allow Fields to denote via directives which UI elements should be rendered
 - Allow InputObjectTypeDefinitions to denote via directives which UI elements should be rendered
@@ -40,3 +38,10 @@ And reserves the following types:
  Any ObjectTypeDefinition which is preceded by an `@element` is considered by this spec to be an
  *Element Type*. Element types must be an "Object" as defined in the graphql specification.
 
+# Language
+## ObjectTypeDefinition
+
+# Reference
+
+An *ObjectTypeDefinition* is a type definition which is an object.
+an {ObjectTypeDefinition} is an *Element Type*. 

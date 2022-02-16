@@ -4,7 +4,7 @@
   "description": "Scaffold UI based on directive definitions in a GraphQL schema",
   "main": "index.js",
   "scripts": {
-    "dev:spec": "nodemon --exec 'spec-md > ./spec/build/index.html' ./spec/src/spec.md"
+    "dev:spec": "nodemon --exec 'spec-md -m spec/src/metadata.json > ./spec/build/index.html' ./spec/src/spec.md"
   },
   "repository": {
     "type": "git",
